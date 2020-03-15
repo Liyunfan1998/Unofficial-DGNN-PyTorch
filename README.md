@@ -55,21 +55,6 @@ python3 ntu_gen_motion_data.py
 
 The generation scripts look for generated data in previous step. By default they look at `./data`; change dir configs if needed.
 
-### Kinetics
-
-(**Currently, generating bone/motion data from Kinetics skeletons is not yet supported. Please feel free to add scripts based on `kinetics_gendata.py`**)
-
-1. Download the Kinetics dataset from ST-GCN repo (https://github.com/yysijie/st-gcn)
-2. Generate joint data:
-
-```bash
-cd data_gen
-python3 kinetics_gendata.py
-```
-
-3. Generate bone data: TODO, feel free to fork/submit PR :D
-4. Generate motion data: TODO, feel free to fork/submit PR :D
-
 
 ## Training
 
